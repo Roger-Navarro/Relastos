@@ -1,0 +1,181 @@
+/* Estilo general en modo oscuro */
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    color: #f0e68c;
+}
+
+.relato-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.relato-container > * {
+    flex: 1 1 40%; /* Esto hará que los elementos ocupen aproximadamente el 40% del ancho del contenedor, pero se ajustarán para evitar el desbordamiento */
+    max-width: 40%; /* Esto limitará el ancho de los elementos al 40% del contenedor */
+    margin: 10px; /* Esto agregará un poco de espacio alrededor de los elementos */
+}
+
+.header-footer {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-footer-text {
+    color: #f0e68c;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.imagen {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .libro-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    color: #343a40;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.landing h1 {
+    position: relative;
+    text-align: center;
+}
+
+.libro-name {
+    font-size: 2em;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.libro-cuisine {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.libro-rating {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.form {
+    display: "flex";
+    align-Items: "center";
+    justify-Content: "center";
+    margin: "10px";
+  }
+.input {
+    padding: "8px";
+    font-Size: "16px";
+    width: "250px";
+    margin-Right: "10px";
+    border-Radius: "4px";
+    border: "1px solid #ccc";
+  }
+  
+.button {
+    padding: "8px 16px";
+    font-Size: "16px";
+    border: "none";
+    border-Radius: "4px";
+    background-Color: "#4CAF50";
+    color: "white";
+    cursor: "pointer";
+  }
+
+.lista {
+    list-Style-Type: "none";
+    padding: 0;
+  }
+.item {
+    display: "flex";
+    justify-Content: "space-between";
+    margin-Bottom: "10px";
+    padding: "5px";
+    border-Bottom: "1px solid #ccc";
+  }
+
+.boton {
+    margin-Left: "10px";
+    background-Color: "#e74c3c";
+    color: "white";
+    border: "none";
+    padding: "5px 10px";
+    border-Radius: "5px";
+    cursor: "pointer";
+  }
+
+  .botonPrincipal {
+    margin-Top: "10px";
+    background-Color: "#4CAF50";
+    color: "white";
+    border: "none";
+    padding: "8px 16px";
+    border-Radius: "5px";
+    cursor: "pointer";
+  }
+  .productos {
+    margin-Top: "20px";
+  }
+
+  .container-carrito {
+    margin: "20px";
+    padding: "20px";
+    border: "1px solid #ccc";
+    border-Radius: "8px";
+    max-Width: "600px";
+  }
+
+  .seccionIzquierda {
+    flex: 1; 
+    margin-Right: '20px'; 
+    background: '#f0f0f0';
+    padding: '20px';
+    border-Radius: '8px';
+  }
+
+  .seccionDerecha::after {
+    flex: 1;
+    background: '#e0e0e0';
+    padding: '20px';
+    border-Radius: '8px';
+  }
